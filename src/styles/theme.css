@@ -1,0 +1,14 @@
+:root {
+	--color-blue: #a4ebff;
+	--color-black: #000;
+	--color-white: #fff;
+	--color-green: #13b176;
+	--color-red: #ce3131;
+	--color-violet: #fff2fe;
+
+	--shadow-sm: 0px 0px 8px rgba(69, 69, 69, 0.3);
+	--shadow-md: 0px 0px 12px rgba(69, 69, 69, 0.5);
+
+	--radius-sm: 0.5rem;
+	--radius-md: 1rem;
+}

@@ -1,0 +1,27 @@
+.table_data {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+	width: 100%;
+	padding: 0.75rem;
+	background-color: var(--color-white);
+	border-radius: var(--radius-md);
+	box-shadow: var(--shadow-md);
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+
+.data,
+span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: var(--title-4);
+}
+.data_active {
+	color: var(--color-green);
+}
+.data_inactive {
+	color: var(--color-red);
+}

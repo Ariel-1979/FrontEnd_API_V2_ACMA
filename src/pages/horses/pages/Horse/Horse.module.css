@@ -1,0 +1,14 @@
+.wrapper {
+	width: 95%;
+	margin: 0 auto;
+	height: 100vh;
+	background-color: var(--color-violet);
+}
+
+.fileHorse {
+	display: grid;
+	grid-template-columns: 3fr 9fr;
+	gap: 2rem;
+	height: 50vh;
+	margin-top: 2rem;
+}

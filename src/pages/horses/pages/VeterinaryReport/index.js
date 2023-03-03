@@ -1,0 +1,1 @@
+export { default as VeterinaryReport } from './VeterinaryReport';
