@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import style from './SearchBar.module.css';
 
-export default function SearchBar() {
+export default function SearchBar({ searchHorses }) {
 	return (
 		<div className={style.wrapper}>
 			<Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
@@ -14,10 +14,12 @@ export default function SearchBar() {
 				/>
 				<TextField
 					id='searchBar'
-					label='Buscar...'
+					label='Buscar por Nombre o H.Clínica'
 					variant='standard'
 					color='primary'
-					size='small'
+					size='large'
+					onChange={searchHorses}
+					focused
 				/>
 			</Box>
 		</div>

@@ -2,21 +2,3 @@
 	margin: auto;
 	width: 95%;
 }
-
-.table_title {
-	display: grid;
-	grid-template-columns: repeat(7, 1fr);
-	width: 100%;
-	padding: 0.75rem;
-	margin-bottom: 1rem;
-	background-color: var(--color-blue);
-	border-radius: var(--radius-md);
-	box-shadow: var(--shadow-md);
-}
-.table_head {
-	text-align: center;
-	text-transform: uppercase;
-	font-size: var(--title-4);
-	color: var(--color-black);
-	font-weight: bold;
-}
